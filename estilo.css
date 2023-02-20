@@ -1,0 +1,19 @@
+body{
+    background-color: hsl(172, 67%, 45%);
+}
+
+.divisor{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container1{
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vh;
+    height: 50vh;
+    border-radius: 20px;
+}
