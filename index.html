@@ -7,15 +7,36 @@
     <title>Calculadora de Gorjetas</title>
     <link rel="stylesheet" href="estilo.css">
     <script src="scripts.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+        </style>
 </head>
 <body>
     <div id="logo" class="divisor">
         <img src="images/logo.svg">
     </div>
     <div id="fundocal" class="container1">
-        <p>Bill</p>
+        <td>Bill</br></td>
+        <td><button><img src="images/icon-dollar.svg"> <input type="number"></button></td>
 
+        <div id="select" class="container2">
+            
+            <td>Select Tip %</td>
+            <table>
+            <tr>
+            <td><button class="botao" onclick="clean()">5%</button></td>
+            <td><button class="botao" onclick="clean()">10%</button></td>
+            <td><button class="botao" onclick="clean()">15%</button></td>
+        </tr>
+
+        <tr>
+            <td><button class="botao" onclick="clean()">25%</button></td>
+            <td><button class="botao" onclick="clean()">50%</button></td>
+            <td><button class="botao" onclick="clean()">Custom</button></td>
+        </tr>
+    </table>
+            
+        </div>
     </div>
-    
 </body>
 </html>
