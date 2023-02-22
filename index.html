@@ -12,17 +12,24 @@
         </style>
 </head>
 <body>
-    <div id="logo" class="divisor">
-        <img src="images/logo.svg">
-    </div>
-    <div id="fundocal" class="container1">
-        <td>Bill</br></td>
-        <td><button><img src="images/icon-dollar.svg"> <input type="number"></button></td>
 
-        <div id="select" class="container2">
+    <header class="logo">
+        <img src="images/logo.svg">
+    </header>
+
+        <main class="main">
+
+    <div class="valor">
+
+        <label for="">Bill</label>
+        <input type="number" id="bill" class="input-bill" required placeholder="">
+        
+
+        <div class="porcentagem">
             
-            <td>Select Tip %</td>
-            <table>
+            <label for="">Select Tip %</label>
+
+        <table>
             <tr>
             <td><button class="botao" onclick="clean()">5%</button></td>
             <td><button class="botao" onclick="clean()">10%</button></td>
@@ -34,9 +41,40 @@
             <td><button class="botao" onclick="clean()">50%</button></td>
             <td><button class="botao" onclick="clean()">Custom</button></td>
         </tr>
+
     </table>
-            
-        </div>
+</div>
+
+    <section class="pessoas">
+    <tr>
+        <label for="">Number of People</label>
+        <span class="notice">Can't be zero</br></span>
+        <input type="number" id="people" class="input-people" required placeholder="">
+    </tr>
+
+
+<div class="resultado">
+<div class="custo">
+    <h3 class="custo-h3">Tip Amount<br><span class="by-people">/ person</span></h3>
+    <h2 class="custo-h2" id="custo-person"> $ 0.00</h2>
+</div>
+
+<div class="custo">
+    <h3 class="custo-h3"> Total <br><span class="by-people"> / person</span></h3>
+    <h2 class="custo-h2" id="result-total"> $ 0.00 </h2>
+
+</div>
+
+<div class="reset">
+
+    <input type="button" value="RESET" class="button-reset" onclick="window.location.reload()">
     </div>
+
+</div>
+</div>
+</div>
+    
+</main>
+
 </body>
 </html>

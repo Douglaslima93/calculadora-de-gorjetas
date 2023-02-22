@@ -4,12 +4,14 @@ body{
 
 }
 
-.divisor{
+.logo{
     text-align: center;
     margin-top: 50px;
 }
 
-.container1{
+
+
+.valor{
     position: absolute;
     background-color: white;
     top: 50%;
@@ -18,5 +20,16 @@ body{
     width: 100vh;
     height: 50vh;
     border-radius: 20px;
-    padding: 10px;
+    padding: 40px;
+}
+
+.resultado{
+    width: 40%;
+    height: 245px;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 15px;
+    margin-left: 400px;
+    margin-top: -150px;
+    padding: 15px;
+    
 }
