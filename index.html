@@ -12,69 +12,44 @@
         </style>
 </head>
 <body>
-
-    <header class="logo">
-        <img src="images/logo.svg">
+    <header>
+        <img src="images/logo.svg" alt="logo">
     </header>
 
-        <main class="main">
+    <main class="main">
 
-    <div class="valor">
-
-        <label for="">Bill</label>
-        <input type="number" id="bill" class="input-bill" required placeholder="">
-        
+        <section class="ladoesq">
+        <p id="textos">Bill</p>
+        <input type="number" name="valor" onclick="" id="input-bill" placeholder="0">
 
         <div class="porcentagem">
-            
-            <label for="">Select Tip %</label>
+            <p id="textos">Select Tip %</p>
+            <button id="botao" onclick="insert('5%')">5%</button>
+            <button id="botao" onclick="insert('10%')">10%</button>
+            <button id="botao" onclick="insert('15%')">15%</button>
+        <br>
+            <button id="botao" onclick="insert('25%')">25%</button>
+            <button id="botao" onclick="insert('50%')">50%</button>
+            <button id="botaocusto" onclick="insert('Custom')">Custom</button>
+        </div>
 
-        <table>
-            <tr>
-            <td><button class="botao" onclick="clean()">5%</button></td>
-            <td><button class="botao" onclick="clean()">10%</button></td>
-            <td><button class="botao" onclick="clean()">15%</button></td>
-        </tr>
+        <div class="people">
+            <p id="textos">Number of People<span>Can't be zero</span></p>
+            <input type="number" name="valor" onclick="" id="input-people" placeholder="0">
+        </div>
+        </section>
 
-        <tr>
-            <td><button class="botao" onclick="clean()">25%</button></td>
-            <td><button class="botao" onclick="clean()">50%</button></td>
-            <td><button class="botao" onclick="clean()">Custom</button></td>
-        </tr>
+        <section class="ladodir">
+            <h3>Tip Amount<br>/person</h3>
+            <input type="number" name="resultado" id="resultado" placeholder="$0.00">
+            <br>
+            <h3>Total<br>/person</h3>
+            <input type="number" name="resultado" id="resultado" placeholder="$0.00">
 
-    </table>
-</div>
-
-    <section class="pessoas">
-    <tr>
-        <label for="">Number of People</label>
-        <span class="notice">Can't be zero</br></span>
-        <input type="number" id="people" class="input-people" required placeholder="">
-    </tr>
+            <span class="reset"><input type="reset" name="reset"></span>
+        </section>
 
 
-<div class="resultado">
-<div class="custo">
-    <h3 class="custo-h3">Tip Amount<br><span class="by-people">/ person</span></h3>
-    <h2 class="custo-h2" id="custo-person"> $ 0.00</h2>
-</div>
-
-<div class="custo">
-    <h3 class="custo-h3"> Total <br><span class="by-people"> / person</span></h3>
-    <h2 class="custo-h2" id="result-total"> $ 0.00 </h2>
-
-</div>
-
-<div class="reset">
-
-    <input type="button" value="RESET" class="button-reset" onclick="window.location.reload()">
-    </div>
-
-</div>
-</div>
-</div>
-    
-</main>
-
+    </main>
 </body>
 </html>

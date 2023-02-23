@@ -1,35 +1,89 @@
 body{
-    font-family: 'Space Mono', monospace;
     background-color: hsl(185, 41%, 84%);
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
 
 }
 
-.logo{
+header{
     text-align: center;
     margin-top: 50px;
 }
 
-
-
-.valor{
-    position: absolute;
+.main{
+    width: 100vh;
+    height: 400px;
     background-color: white;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100vh;
-    height: 50vh;
+    display: flex;
+    justify-content: center;
     border-radius: 20px;
-    padding: 40px;
+    
 }
 
-.resultado{
-    width: 40%;
-    height: 245px;
+.ladoesq{
+    margin:auto;
+    width: 40vh;
+    height: 80%;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.ladodir{
+    margin: auto;
+    width: 40vh;
+    height: 80%;
     background-color: hsl(183, 100%, 15%);
-    border-radius: 15px;
-    margin-left: 400px;
-    margin-top: -150px;
-    padding: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+#input-bill{
+    background-image: url('images/icon-dollar.svg');
+    background-repeat: no-repeat;
+    text-align: right;
+    background-color: hsl(185, 41%, 84%);
+    padding: 5px;
+    width: 35vh;
+    border-radius: 5px;
     
+}
+
+#textos{
+    color: hsl(184, 14%, 56%);
+    
+}
+
+#botao{
+    background-color:hsl(183, 100%, 15%);
+    color: white;
+    width: 10vh;
+    height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#botaocusto{
+    background-color: hsl(185, 41%, 84%);
+    color: hsl(184, 14%, 56%);
+    width: 10vh;
+    height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#input-people{
+    background-image: url(images/icon-person.svg);
+    background-repeat: no-repeat;
+    text-align: right;
+    background-color: hsl(185, 41%, 84%);
+    padding: 5px;
+    border-radius: 5px;
+    width: 35vh;
 }
