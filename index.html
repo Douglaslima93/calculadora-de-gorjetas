@@ -34,22 +34,24 @@
         </div>
 
         <div class="people">
-            <p id="textos">Number of People<span>Can't be zero</span></p>
+            <p id="textos">Number of People<span><!--Can't be zero--></span></p>
             <input type="number" name="valor" onclick="" id="input-people" placeholder="0">
         </div>
         </section>
 
         <section class="ladodir">
-            <h3>Tip Amount<br>/person</h3>
-            <input type="number" name="resultado" id="resultado" placeholder="$0.00">
+            <h3 id="txt2">Tip Amount<br><span id="txt3">/person</span></h3>
+            <h2 id="txt4"> $0.00 </h2>
             <br>
-            <h3>Total<br>/person</h3>
-            <input type="number" name="resultado" id="resultado" placeholder="$0.00">
+            <h3 id="txt2">Total<br><span id="txt3">/person</span></h3>
+            <h2 id="txt4"> $0.00 </h2>
+        
+            <div class="reset">
+            <input type="button" value="RESET" id="botao-reset" onclick="location.reload()">
+        </div>
+        
 
-            <span class="reset"><input type="reset" name="reset"></span>
-        </section>
-
-
+    </section>
     </main>
 </body>
 </html>

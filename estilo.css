@@ -25,11 +25,12 @@ header{
 }
 
 .ladoesq{
-    margin:auto;
+    margin: 10px auto;
     width: 40vh;
     height: 80%;
     padding: 10px;
     margin-left: 20px;
+    
 }
 
 .ladodir{
@@ -40,21 +41,33 @@ header{
     padding: 20px;
     border-radius: 10px;
     margin-right: 20px;
+    
+    
 }
 
 #input-bill{
     background-image: url('images/icon-dollar.svg');
     background-repeat: no-repeat;
+    background-position: 5px;
+    color: hsl(183, 100%, 15%);
     text-align: right;
     background-color: hsl(185, 41%, 84%);
     padding: 5px;
     width: 35vh;
     border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
     
+}
+
+.porcentagem{
+    margin-top: 50px;
 }
 
 #textos{
     color: hsl(184, 14%, 56%);
+    font-size: 12px;
     
 }
 
@@ -66,6 +79,8 @@ header{
     margin: 5px;
     border-radius: 5px;
     font-size: 15px;
+    cursor: pointer;
+    border: none;
 }
 
 #botaocusto{
@@ -76,6 +91,13 @@ header{
     margin: 5px;
     border-radius: 5px;
     font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.people{
+    margin-top: 50px;
+    
 }
 
 #input-people{
@@ -86,4 +108,41 @@ header{
     padding: 5px;
     border-radius: 5px;
     width: 35vh;
+    border:none;
+    background-position: 5px;
+    font-size: 18px;
+    font-weight: bold;
 }
+
+#txt2{
+    color: white;
+    font-size: 15px;
+    
+}
+
+#txt3{
+    color:hsl(184, 14%, 56%);
+    font-size: 12px;
+}
+
+#txt4{
+    color: hls(172, 67%, 45%);
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 200px;
+    margin-top: -50px;
+}
+
+#botao-reset{
+    width: 40vh;
+    text-align: center;
+    margin:  auto;
+    border-radius: 5px;
+    background-color: hsl(186, 14%, 43%);
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color:hsl(183, 100%, 15%);
+    margin-top: 100px;
+}
+
