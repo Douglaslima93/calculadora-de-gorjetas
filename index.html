@@ -20,16 +20,16 @@
 
         <section class="ladoesq">
         <p id="textos">Bill</p>
-        <input type="number" name="valor" onclick="" id="input-bill" placeholder="0">
+        <input type="number" name="valor" onclick="insert()" id="input-bill" placeholder="0">
 
         <div class="porcentagem">
             <p id="textos">Select Tip %</p>
-            <button id="botao" onclick="insert('5%')">5%</button>
-            <button id="botao" onclick="insert('10%')">10%</button>
-            <button id="botao" onclick="insert('15%')">15%</button>
+            <button id="botao" valor="5%" onclick="insert('5%')">5%</button>
+            <button id="botao" valor="10%" onclick="insert('10%')">10%</button>
+            <button id="botao" valor="15%" onclick="insert('15%')">15%</button>
         <br>
-            <button id="botao" onclick="insert('25%')">25%</button>
-            <button id="botao" onclick="insert('50%')">50%</button>
+            <button id="botao" valor="25%" onclick="insert('25%')">25%</button>
+            <button id="botao" valor="50%" onclick="insert('50%')">50%</button>
             <button id="botaocusto" onclick="insert('Custom')">Custom</button>
         </div>
 
@@ -53,5 +53,6 @@
 
     </section>
     </main>
+    <script src="scripts.js"></script>
 </body>
 </html>
