@@ -71,7 +71,7 @@ header{
     
 }
 
-#botao{
+.botao{
     background-color:hsl(183, 100%, 15%);
     color: white;
     width: 10vh;
@@ -83,7 +83,7 @@ header{
     border: none;
 }
 
-#botaocusto{
+.botaocusto{
     background-color: hsl(185, 41%, 84%);
     color: hsl(184, 14%, 56%);
     width: 10vh;
@@ -126,6 +126,14 @@ header{
 }
 
 #txt4{
+    color: hls(172, 67%, 45%);
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 180px;
+    margin-top: -50px;
+}
+
+#txt5{
     color: hls(172, 67%, 45%);
     font-weight: bold;
     font-size: 24px;
