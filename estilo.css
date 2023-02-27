@@ -93,6 +93,7 @@ header{
     font-size: 15px;
     cursor: pointer;
     border: none;
+    text-align: center;
 }
 
 .people{
@@ -129,7 +130,7 @@ header{
     color: hls(172, 67%, 45%);
     font-weight: bold;
     font-size: 24px;
-    margin-left: 180px;
+    margin-left: 160px;
     margin-top: -50px;
 }
 
@@ -137,7 +138,7 @@ header{
     color: hls(172, 67%, 45%);
     font-weight: bold;
     font-size: 24px;
-    margin-left: 180px;
+    margin-left: 160px;
     margin-top: -50px;
 }
 
