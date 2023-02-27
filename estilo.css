@@ -129,16 +129,16 @@ header{
 #txt4{
     color: hls(172, 67%, 45%);
     font-weight: bold;
-    font-size: 24px;
-    margin-left: 160px;
+    font-size: 23px;
+    margin-left: 140px;
     margin-top: -50px;
 }
 
 #txt5{
     color: hls(172, 67%, 45%);
     font-weight: bold;
-    font-size: 24px;
-    margin-left: 160px;
+    font-size: 23px;
+    margin-left: 140px;
     margin-top: -50px;
 }
 
@@ -153,5 +153,11 @@ header{
     border: none;
     color:hsl(183, 100%, 15%);
     margin-top: 100px;
+}
+
+#zero{
+    color: red;
+    margin-left: 20px;
+    
 }
 
