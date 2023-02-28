@@ -10,6 +10,6 @@
 
 ### Projeto de origem Front-end-mentor, deichei o layout o mais proximo que consegui, mas assim que tiver mais tempo pretendo fazer algumas melhorias na pagina.
 
-### ![Calculadora-de-Gorjetas](https://user-images.githubusercontent.com/121909515/221661821-c559bea7-fbaf-4c51-9b0e-f67d8176385f.png)
+### ![Calculadora-de-Gorjetas](https://user-images.githubusercontent.com/121909515/221851187-d3d7bb2d-23f4-4a82-91a6-21e572a49970.png)
 
 #### Site frontend Mentor : https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX
